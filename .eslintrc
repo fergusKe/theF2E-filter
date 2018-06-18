@@ -62,9 +62,6 @@
     "react/no-array-index-key": "off",
     "jsx-a11y/anchor-is-valid": "off",
     "new-cap": "off",
-
-    "func-names": "off",
-    "prefer-rest-params": "off",
-    "jsx-a11y/anchor-has-content": "off"
+    "react/style-prop-object": "off"
   }
 }
