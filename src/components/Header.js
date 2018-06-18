@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class Header extends Component {
   render() {
@@ -6,7 +7,7 @@ class Header extends Component {
       <nav className="navbar navbar-dark bg-primary">
         <div className="container d-flex flex-column flex-md-row">
           <div className="container-md-left">
-            <a className="navbar-brand ml-md-5" href="index.html">HaveFun</a>
+            <Link className="navbar-brand ml-md-5" to="/">HaveFun</Link>
           </div>
           <div className="pl-md-5 flex-1">
             <form style={{maxWidth: "400px"}}>
